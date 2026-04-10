@@ -1,0 +1,26 @@
+{
+  "package_name": "Hermes-QQBot-迁移包",
+  "purpose": "用于将 QQ Bot 支持迁移到另一套原本不支持 qqbot 的 Hermes 代码库",
+  "copied_source_files": [
+    "gateway/platforms/qqbot.py",
+    "gateway/config.py",
+    "gateway/run.py",
+    "gateway/channel_directory.py",
+    "hermes_cli/tools_config.py",
+    "hermes_cli/gateway.py",
+    "hermes_cli/status.py",
+    "toolsets.py",
+    "tools/send_message_tool.py",
+    "cron/scheduler.py",
+    "agent/prompt_builder.py"
+  ],
+  "templates": [
+    "templates/config.qqbot.template.yaml",
+    "templates/qqbot.env.template"
+  ],
+  "notes": [
+    "source_snapshot 下是当前成功环境中的相关源码快照",
+    "不要把真实密钥写入文档或提交到 git",
+    "迁移时优先按 docs/迁移说明 执行，再做人工 diff 校验"
+  ]
+}

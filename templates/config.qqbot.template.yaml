@@ -1,0 +1,14 @@
+# 将下面内容合并到 ~/.hermes/config.yaml
+# 注意：这里是模板，不能直接使用真实密钥示例
+
+platforms:
+  qqbot:
+    enabled: true
+    extra:
+      app_id: "YOUR_APP_ID"
+      secret: "YOUR_CLIENT_SECRET"
+
+# 如果目标 Hermes 支持 platform_toolsets，可确认/补充：
+platform_toolsets:
+  qqbot:
+    - hermes-qqbot
