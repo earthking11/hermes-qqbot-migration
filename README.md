@@ -1,6 +1,7 @@
 # Hermes QQ Bot 迁移包 (Hermes-QQBot Migration Package)
 
 本仓库是一个专门为 **Hermes** 生态设计的迁移包，旨在帮助用户将 **QQ Bot** 的支持快速迁入原本不支持该平台的 Hermes 代码库中。
+vibe出来的，没经过测试，不保证成功，建议直接叫hermes运行这个项目。
 
 > **注意：** 本仓库仅包含实现逻辑、代码快照和配置模板，**不包含任何真实密钥或凭据**。
 
